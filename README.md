@@ -7,6 +7,6 @@ Thành viên:
   
     Nguyễn Đình Thọ      - 19522292
              
-    Trần Hồ Thiên Phước  - 
+    Trần Hồ Thiên Phước  - 19522057
              
 #CS114.M11.KHCL
