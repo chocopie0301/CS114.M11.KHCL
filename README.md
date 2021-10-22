@@ -1,5 +1,12 @@
-Họ và tên: Nguyễn Thành Trung
 
-MSSV: 19522432
+Nhóm TTP:
 
-Lớp: CS114.M11.KHCL
+Thành viên:
+
+    Nguyễn Thành Trung   - 19522432
+  
+    Nguyễn Đình Thọ      - 19522292
+             
+    Trần Hồ Thiên Phước  - 19522057
+             
+#CS114.M11.KHCL
