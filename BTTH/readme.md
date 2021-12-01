@@ -8,4 +8,4 @@ Output: Thời gian chạy (ms)
 
 Train: data2.txt
 
-Test: data3.txt 
+Test: data3.txt, data4.txt
