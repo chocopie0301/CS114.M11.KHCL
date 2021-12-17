@@ -11,7 +11,7 @@
 2. Output: Trong ảnh có tai nạn hay không.
 
 ## Bài toán dùng để:
-Thống kê số liệu xảy ra tai nạn giao thông tại 1 địa phương cụ thể thông qua những tấm hình mà cảnh sát giao thông thu thập được ở hiện trường.
+Thống kê số liệu xảy ra tai nạn giao thông tại 1 địa phương cụ thể thông qua những tấm hình mà cảnh sát giao thông thu thập được ở hiện trường hoặc thông qua các bài báo về giao thông.
 
 ## Mô tả dữ liệu:
 
