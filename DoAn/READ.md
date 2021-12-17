@@ -7,7 +7,7 @@
 
 ## Bài toán gồm:
 
-1. Input: Một tấm ảnh bất kỳ về giao thông trên đường.
+1. Input: Một tấm ảnh bất kỳ về giao thông đường bộ.
 2. Output: Trong ảnh có tai nạn hay không.
 
 ## Bài toán dùng để:
