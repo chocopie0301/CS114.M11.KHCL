@@ -15,7 +15,7 @@ Thống kê số liệu xảy ra tai nạn giao thông tại 1 địa phương c
 
 ## Mô tả dữ liệu:
 
-- Dự kiến 6000 ảnh được lấy từ internet, gồm: 3000 ảnh có tai nạn và 3000 ảnh không có tai nạn.
+- Dự kiến ~6000 ảnh được lấy từ internet, gồm: ~3000 ảnh có tai nạn và ~3000 ảnh không có tai nạn.
 - Dữ liệu được chia theo tỉ lệ 60%-train, 20%-dev, 20%-test.
 - Ví dụ:
 
