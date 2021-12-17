@@ -27,5 +27,11 @@ Thống kê số liệu xảy ra tai nạn giao thông tại 1 địa phương c
 
 ![image](https://user-images.githubusercontent.com/76487372/146470823-e9bc9764-2ee2-49b8-aedc-2e66f1a797ec.png)
 
+## Mô hình:
+
+- Đánh giá qua độ chính xác, F1-score.
+- Mục tiêu dự kiến: Xác định được mô hình tốt nhất, dự đoán đúng output với >=0.8 cho cả accuracy và F1-score 
+
+
 
 
