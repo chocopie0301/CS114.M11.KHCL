@@ -13,7 +13,7 @@
 ## Bài toán dùng để:
 Thống kê số liệu xảy ra tai nạn giao thông tại 1 địa phương cụ thể thông qua những tấm hình mà cảnh sát giao thông thu thập được ở hiện trường.
 
-## Mô tả dataset:
+## Mô tả dữ liệu:
 
 - Dự kiến 6000 ảnh được lấy từ internet, gồm: 3000 ảnh có tai nạn và 3000 ảnh không có tai nạn.
 - Dữ liệu được chia theo tỉ lệ 60%-train, 20%-dev, 20%-test.
