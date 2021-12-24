@@ -1,4 +1,4 @@
-# **DỰ ĐOÁN KÍCH THƯỚC CHÂN CỦA NAM, HỖ TRỢ VIỆC ĐÓNG GIÀY 4.0**
+# **DỰ ĐOÁN KÍCH THƯỚC CHÂN CỦA KHÁCH HÀNG, HỖ TRỢ VIỆC ĐÓNG GIÀY 4.0**
 
 ## Nhóm TTP:
 
