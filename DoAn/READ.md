@@ -18,18 +18,21 @@
 ## Mô tả dữ liệu:
 
 - Dự kiến ~1200 ảnh do chính các thành viên chụp.
-- Thông số: chiều dài bàn chân (ảnh chụp hướng lòng trong bàn chân: tính từ ngón chân dài nhất đến gót chân), chiều rộng bàn chân (ảnh chụp từ trên xuống và chính diện bàn chân), 
+- Thông số: chiều dài bàn chân (ảnh chụp hướng lòng trong bàn chân: tính từ ngón chân dài nhất đến gót chân), chiều rộng bàn chân (ảnh chụp từ trên xuống và chính diện bàn chân), chiều cao tính từ phần chân chạm đất đến mu bàn chân và mắt cá chân (ảnh chụp hướng vào máng ngoài bàn chân).
+
 Ví dụ:
 
 ![image](https://user-images.githubusercontent.com/76487372/147303092-64719c0e-aac5-46f2-9655-7f449044f09d.png)
-Hình 1. Ảnh chụp hướng lòng trong bàn chân
+                            Hình 1. Ảnh chụp hướng lòng trong bàn chân
 
 
 ![image](https://user-images.githubusercontent.com/76487372/147303450-79fb205d-c273-4940-8cb8-95fe589145cd.png)
-Hình 2. Ảnh chụp từ trên xuống và chính diện bàn chân
+                            Hình 2. Ảnh chụp từ trên xuống và chính diện bàn chân
 
 
 ![image](https://user-images.githubusercontent.com/76487372/147303462-513ee868-9512-4e7b-aa9e-7fb2c23b453b.png)
+                            Hình 3. Chiều cao bàn chân.
+
 
 - Dữ liệu được chia theo tỉ lệ 70%-train, 15%-dev, 15%-test.
 
