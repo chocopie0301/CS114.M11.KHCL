@@ -24,8 +24,10 @@ Ví dụ:
 ![image](https://user-images.githubusercontent.com/76487372/147303092-64719c0e-aac5-46f2-9655-7f449044f09d.png)
 ảnh chụp hướng lòng trong bàn chân
 
+
 ![image](https://user-images.githubusercontent.com/76487372/147303450-79fb205d-c273-4940-8cb8-95fe589145cd.png)
 ảnh chụp từ trên xuống và chính diện bàn chân
+
 
 ![image](https://user-images.githubusercontent.com/76487372/147303462-513ee868-9512-4e7b-aa9e-7fb2c23b453b.png)
 
