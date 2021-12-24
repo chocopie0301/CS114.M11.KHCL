@@ -6,7 +6,7 @@
 2. Trần Hồ Thiên Phước - 19522057
 
 ## Bài toán dùng ở đâu và để làm gì:
-- Bài toán tích hợp trên một app có chức năng chụp/quét và nên thuộc quyền sở hữu bởi 1 shop giày. (Shop giày sản xuất những chiếc giày có giá phổ thông nhắm đến đối tượng khách hàng bình dân)
+- Bài toán tích hợp trên một app có chức năng chụp/quét và nên thuộc quyền sở hữu bởi 1 shop giày. (Shop giày sản xuất những chiếc giày có giá phổ thông nhằm hướng đến đối tượng khách hàng bình dân)
 - Đối tượng sử dụng: những người có nhu cầu mua giày custom size nhưng lại ở qua xa shop, những người bị ảnh hưởng việc đi lại bởi dịch covid. (Đối tượng hướng đến chủ yếu có kinh tế thuộc diện trung bình khá/ các bạn trẻ, học sinh, sinh viên nên giày được đề cập trong đồ án không được sản xuất bằng các chất liệu xịn để có giá thành phổ thông nhất đến với khách hàng (400k vnd < x < 900k vnd)).
 - Bài toán nhằm thay thế việc đo đạc thủ công, đảm bảo giày được mua đúng kích thước khách hàng yêu cầu và tăng sự đa dạng size giày của shop, giúp việc mua bán diễn ra nhanh hơn thông qua dữ liệu thu thập được từ những khách hàng đã sử dụng đủ lớn.
 
