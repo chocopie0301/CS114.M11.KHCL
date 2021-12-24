@@ -22,7 +22,7 @@ Hỗ trợ việc đóng giày customize giữa shop giày và người tiêu d�
 
 ## Mô tả dữ liệu:
 
-- Dự kiến ~x000 ảnh do chính các thành viên chụp.
+- Dự kiến ~1200 ảnh do chính các thành viên chụp.
 - Dữ liệu được chia theo tỉ lệ 60%-train, 20%-dev, 20%-test.
 
 ## Mô hình:
