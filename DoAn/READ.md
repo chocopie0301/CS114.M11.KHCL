@@ -8,7 +8,7 @@
 ## Bài toán gồm:
 
 1. Input: Một tấm ảnh bàn chân.
-2. Output: Kết quả là chiều dài của bàn chân.
+2. Output: Kết quả là kích thước của bàn chân.
 - Ví dụ:
 
 ![image](https://user-images.githubusercontent.com/76487372/147303092-64719c0e-aac5-46f2-9655-7f449044f09d.png)
