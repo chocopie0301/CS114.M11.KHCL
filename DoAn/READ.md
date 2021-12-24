@@ -1,4 +1,4 @@
-# **DỰ ĐOÁN KÍCH THƯỚC BÀN CHÂN CỦA KHÁCH HÀNG, HỖ TRỢ TRONG VIỆC ĐÓNG GIÀY 4.0**
+# **DỰ ĐOÁN KÍCH THƯỚC BÀN CHÂN CỦA KHÁCH HÀNG**
 
 ## Nhóm TTP:
 
