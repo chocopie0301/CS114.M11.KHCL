@@ -11,9 +11,10 @@
 2. Output: Kết quả là chiều dài của bàn chân.
 - Ví dụ:
 
-![image](https://user-images.githubusercontent.com/76487372/147302338-1eb54315-3084-49e3-84aa-dfea51d61a90.png)
+![image](https://user-images.githubusercontent.com/76487372/147303092-64719c0e-aac5-46f2-9655-7f449044f09d.png)
 
-![image](https://user-images.githubusercontent.com/76487372/147302304-12967ade-29d7-4777-8fba-977f0cb798d1.png)
+
+![image](https://user-images.githubusercontent.com/76487372/147303104-de26386e-d087-4c6d-9a4a-67bf9fa180c0.png)
 
 
 ## Bài toán dùng để:
