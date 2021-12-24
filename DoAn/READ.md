@@ -1,4 +1,4 @@
-# **DỰ ĐOÁN KÍCH THƯỚC CHÂN CỦA KHÁCH HÀNG, HỖ TRỢ VIỆC ĐÓNG GIÀY 4.0**
+# **DỰ ĐOÁN KÍCH THƯỚC CHÂN CỦA KHÁCH HÀNG, HỖ TRỢ VIỆC TRONG VIỆC ĐÓNG GIÀY 4.0**
 
 ## Nhóm TTP:
 
@@ -17,7 +17,7 @@
 
 
 ## Bài toán dùng để:
-Hỗ trợ việc đóng giày customize giữa shop giày và người tiêu dùng.
+Hỗ trợ việc đóng giày customize giữa shop giày và người tiêu dùng. Giúp việc lựa chọn giày có kích thước vừa chân trở nên dễ dàng hơn, mang lại cảm giác ôm chân như được người yêu ôm vào mùa giáng sinh lạnh giá.
 
 ## Mô tả dữ liệu:
 
