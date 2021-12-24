@@ -10,7 +10,7 @@
 1. Input: Một tấm ảnh bàn chân.
 2. Output: Kết quả là chiều dài của bàn chân.
 - Ví dụ:
-![image](https://user-images.githubusercontent.com/76487372/147302336-6640ac8c-467b-4860-9bf2-ad8dcdf6406d.png)
+
 ![image](https://user-images.githubusercontent.com/76487372/147302338-1eb54315-3084-49e3-84aa-dfea51d61a90.png)
 
 ![image](https://user-images.githubusercontent.com/76487372/147302304-12967ade-29d7-4777-8fba-977f0cb798d1.png)
