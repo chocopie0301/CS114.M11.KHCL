@@ -6,7 +6,7 @@
 2. Trần Hồ Thiên Phước - 19522057
 
 ## Bài toán dùng để:
-Hỗ trợ việc đóng giày customize ngay tại nhà giữa shop giày và người tiêu dùng. Giúp việc lựa chọn giày có kích thước vừa chân trở nên dễ dàng hơn, mang lại cảm giác ôm chân như được người yêu ôm vào mùa giáng sinh lạnh giá.
+Hỗ trợ việc đóng giày custom ngay tại nhà giữa shop giày và người tiêu dùng. Giúp việc lựa chọn giày có kích thước vừa chân trở nên dễ dàng hơn, mang lại cảm giác ôm chân như được người yêu ôm vào mùa giáng sinh lạnh giá.
 
 ## Bài toán gồm:
 
