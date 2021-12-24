@@ -1,4 +1,4 @@
-# **PHÁT HIỆN TAI NẠN GIAO THÔNG**
+# **DỰ ĐOÁN KÍCH THƯỚC CHÂN CỦA MÔI NGƯỜI ĐỂ HỖ TRỢ VIỆC ĐÓNG GIÀY 4.0**
 
 ## Nhóm TTP:
 
@@ -7,30 +7,27 @@
 
 ## Bài toán gồm:
 
-1. Input: Một tấm ảnh về giao thông đường bộ được trích xuất từ video.
-2. Output: Trong ảnh có tai nạn hay không.
+1. Input: Một tấm ảnh bàn chân.
+2. Output: Kết quả là chiều dài của bàn chân.
 - Ví dụ:
+![image](https://user-images.githubusercontent.com/76487372/147302336-6640ac8c-467b-4860-9bf2-ad8dcdf6406d.png)
+![image](https://user-images.githubusercontent.com/76487372/147302338-1eb54315-3084-49e3-84aa-dfea51d61a90.png)
 
-1. Ảnh có tai nạn:
+![image](https://user-images.githubusercontent.com/76487372/147302304-12967ade-29d7-4777-8fba-977f0cb798d1.png)
 
-![image](https://user-images.githubusercontent.com/76487372/146470582-e0d9e1fe-8a8a-4b4e-877f-580b8940fbbd.png)
-
-2. Ảnh không có tai nạn giao thông:
-
-![image](https://user-images.githubusercontent.com/76487372/146470823-e9bc9764-2ee2-49b8-aedc-2e66f1a797ec.png)
 
 ## Bài toán dùng để:
-Thống kê số liệu xảy ra tai nạn giao thông tại 1 địa phương cụ thể thông qua những tấm hình mà cảnh sát giao thông thu thập được ở hiện trường hoặc thông qua các bài báo về giao thông.
+Hỗ trợ việc đóng giày customize giữa shop giày và người tiêu dùng.
 
 ## Mô tả dữ liệu:
 
-- Dự kiến ~6000 ảnh được lấy từ internet, gồm: ~3000 ảnh có tai nạn và ~3000 ảnh không có tai nạn.
+- Dự kiến ~x000 ảnh do chính các thành viên chụp.
 - Dữ liệu được chia theo tỉ lệ 60%-train, 20%-dev, 20%-test.
 
 ## Mô hình:
 
 - Đánh giá qua độ chính xác, F1-score.
-- Mục tiêu dự kiến: Xác định được mô hình tốt nhất, dự đoán đúng output với giá trị accuracy và F1-score đều >=0.8 .
+- Mục tiêu dự kiến: Xác định được mô hình tốt nhất, kết quả dự đoán khớp với kích thước bàn chân thực tế, giá trị accuracy và F1-score đều >=0.8 .
 
 
 
