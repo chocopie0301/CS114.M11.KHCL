@@ -13,8 +13,9 @@
 
 ![image](https://user-images.githubusercontent.com/76487372/147303092-64719c0e-aac5-46f2-9655-7f449044f09d.png)
 
+![image](https://user-images.githubusercontent.com/76487372/147303450-79fb205d-c273-4940-8cb8-95fe589145cd.png)
 
-![image](https://user-images.githubusercontent.com/76487372/147303104-de26386e-d087-4c6d-9a4a-67bf9fa180c0.png)
+![image](https://user-images.githubusercontent.com/76487372/147303462-513ee868-9512-4e7b-aa9e-7fb2c23b453b.png)
 
 
 ## Bài toán dùng để:
