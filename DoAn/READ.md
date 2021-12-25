@@ -7,7 +7,7 @@
 
 ## Bài toán dùng ở đâu và để làm gì:
 - Bài toán tích hợp trên một app có chức năng chụp/quét và nên thuộc quyền sở hữu bởi 1 shop giày. (Shop giày sản xuất những chiếc giày có giá phổ thông nhằm hướng đến đối tượng khách hàng bình dân)
-- Đối tượng sử dụng: những người có nhu cầu mua giày custom size nhưng lại ở quá xa shop, những người bị ảnh hưởng việc đi lại bởi dịch covid. (Đối tượng hướng đến chủ yếu có kinh tế thuộc diện trung bình khá/ các bạn trẻ, học sinh, sinh viên nên giày được đề cập trong đồ án không được sản xuất bằng các chất liệu xịn để có giá thành phổ thông nhất đến với khách hàng (400k vnd < x < 900k vnd)).
+- Đối tượng sử dụng: những người mới mua giày nhưng chưa biết size giày của bản thân hoặc người có nhu cầu mua giày custom size nhưng lại ở quá xa shop, những người bị ảnh hưởng việc đi lại bởi dịch covid. (Đối tượng hướng đến chủ yếu có kinh tế thuộc diện trung bình khá/ các bạn trẻ, học sinh, sinh viên nên giày được đề cập trong đồ án không được sản xuất bằng các chất liệu xịn để có giá thành phổ thông nhất đến với khách hàng (400k vnd < x < 900k vnd)).
 - Bài toán nhằm thay thế việc đo đạc thủ công, đảm bảo giày được mua đúng kích thước khách hàng yêu cầu và tăng sự đa dạng size giày của shop, giúp việc mua bán diễn ra nhanh hơn thông qua dữ liệu thu thập được từ những khách hàng đã sử dụng đủ lớn.
 
 ## Bài toán gồm:
@@ -22,15 +22,15 @@
 
 Ví dụ:
 
-![image](https://user-images.githubusercontent.com/76487372/147303092-64719c0e-aac5-46f2-9655-7f449044f09d.png)
+![image](https://user-images.githubusercontent.com/76487372/147374872-098a8803-adab-4dac-a44e-8504484ca8c1.png)
                             Hình 1. Ảnh chụp hướng lòng trong bàn chân
 
 
-![image](https://user-images.githubusercontent.com/76487372/147303450-79fb205d-c273-4940-8cb8-95fe589145cd.png)
+![image](https://user-images.githubusercontent.com/76487372/147374916-c5adc8f4-fd58-47c0-ad71-66d21be76cad.png)
                             Hình 2. Ảnh chụp từ trên xuống và chính diện bàn chân
 
 
-![image](https://user-images.githubusercontent.com/76487372/147303462-513ee868-9512-4e7b-aa9e-7fb2c23b453b.png)
+![image](https://user-images.githubusercontent.com/76487372/147374947-ad2148e7-78f0-44e9-aead-62d82e5bdfd8.png)
                             Hình 3. Chiều cao bàn chân.
 
 
