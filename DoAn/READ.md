@@ -24,7 +24,7 @@ Dữ liệu chia làm 3 tập train/dev/test với tỉ lệ: 60/20/20
 
 ## Mô hình: 
 - Đánh giá qua độ chính xác.
-- Mục tiêu dự kiến: Xác định được mô hình tốt nhất, kết quả dự đoán khớp với kích thước bàn chân thực tế, giá trị accuracy và F1-score đều >=0.8 .
+- Mục tiêu dự kiến: Xác định được mô hình tốt nhất, kết quả dự đoán khớp với kích thước bàn chân thực tế, giá trị accuracy >=0.8 .
 
 
 
