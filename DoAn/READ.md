@@ -43,4 +43,49 @@ Ví dụ:
 
 
 
+##---------------------------------------------------------------------------------------------------------------------------------------------
+
+# ** Dự đoán người có đội mũ bảo hiểm hay không? **
+
+## Bài toán dùng ở đâu và để làm gì:
+
+Dù đã có luật về việc bắt buộc đội mũ bảo hiểm đã ban hành từ tháng 6 năm 2001 nhưng đến nay vẫn còn nhiều trường hợp không chấp hành, gây nguy hiểm 
+
+## Bài toán gồm:
+
+## Mô tả dữ liệu:
+
+## Mô hình:
+
+
+
+##---------------------------------------------------------------------------------------------------------------------------------------------
+
+# ** Dự đoán khoảng cách phòng dịch covid của mọi người di chuyển trong nơi công cộng? **
+
+## Bài toán dùng ở đâu và để làm gì:
+
+Nếu ta là một công dân biết tuân thủ hoặc chưa tuân thủ trước đó và muốn tuân thủ ngay khuyến cáo 5K trong đó có điều thứ 3 "khoảng cách", thì khi 
+thấy 1 nhóm người khả nghi thì ta có thể rút chiếc thoại ra chụp lại hình ảnh, "phân tích" xem nhóm người đó đã tuân thủ đúng khoảng cách phòng dịch
+chưa? Nếu chưa thì báo chính quyền để họ đóng thuế cho ý thức. 
+
+"Phân tích" việc tuân thủ của nhóm người đó tuân thủ hay chưa qua hình ảnh là công việc của nhóm em trong đồ án này bằng việc xây dựng dữ liệu cho máy học
+để máy dự đoán.
+
+## Bài toán gồm:
+input: ảnh 1 nhóm người 
+
+output: đã tuân thủ khoảng cách phòng dịch hay chưa
+
+## Mô tả dữ liệu:
+
+Dữ liệu sẽ được thành viên trong nhóm chụp.
+
+Dự kiến 1600 ảnh (có thể nhiều hơn tùy thuộc vào tình hình dịch ở quê của từng bạn vào những ngày tới)
+
+Dữ liệu chia làm 3 tập train/dev/test với tỉ lệ: 60/20/20
+
+## Mô hình: 
+- Đánh giá qua độ chính xác.
+- Mục tiêu dự kiến: Xác định được mô hình tốt nhất, kết quả dự đoán khớp với kích thước bàn chân thực tế, giá trị accuracy và F1-score đều >=0.8 .
 
