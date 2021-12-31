@@ -11,30 +11,43 @@
 
 ## Mô tả dữ liệu:
 - Data bao gồm các ảnh về người tham gia giao thông (chủ yếu là xe gắn máy, xe đạp điện, những phương tiện cần đội nón bảo hiểm) được chụp tầm thấp như vd.
+
+![image](https://user-images.githubusercontent.com/76487372/147796584-904b3e38-133a-4541-a63e-74dec872afe6.png)
  
 - Dự kiếm 2000 ảnh tỉ lệ train/test 80/20.
 - Cách thu thập data: sử dụng điện thoại cá nhân, các thành viên tự chụp ở địa phương mình.
 ## Mô hình.
-- Đánh giá nhãn thông qua các chỉ số f1-score
+
 - Đánh giá bounding box thông qua chỉ số mAP (mean anverage precision)
  
+![image](https://user-images.githubusercontent.com/76487372/147796634-8585636b-07b0-4c67-adf3-733348eabcb4.png)
+
+![image](https://user-images.githubusercontent.com/76487372/147796639-78ceaae1-d8b2-4740-a3e4-87ab1cea5d53.png)
 
  
 Precision: Thể hiện sự chuẩn xác của việc phát hiện các điểm Positive. Số này càng cao thì model nhận các điểm Positive càng chuẩn
  
+ ![image](https://user-images.githubusercontent.com/76487372/147796652-00b3510a-d4ea-4d9b-b390-d4fce1e7bb2f.png)
+
 Recall:  Thể hiện khả năng phát hiện tất cả các postivie, tỷ lệ này càng cao thì cho thấy khả năng bỏ sót các điểm Positive là thấp
- 
-F1 score: Là số dung hòa Recall và Precision giúp ta có căn cứ để lựa chọn model. F1 càng cao càng tốt .
+
+![image](https://user-images.githubusercontent.com/76487372/147796654-eea52198-f567-4a53-8193-4735c6a14657.png)
+
+F1 score: Là số dung hòa Recall và Precision giúp ta có căn cứ để lựa chọn model. F1 càng cao càng tốt.
+
 Đối với bounding box việc xác địnhTP, FN,FP như sau:
  
+ ![image](https://user-images.githubusercontent.com/76487372/147796658-af4e7999-ee15-466a-af63-d967573898e0.png)
+
 Chọn một ngưỡng X.
 Các tiêu chí được dùng để đánh giá:
-– Đối tượng được nhận dạng đúng với tỉ lệ IOU> X (True positive : TP)
-– Đối tượng được nhận dạng sai với tỉ lệ IOU < X (False positive : FP)
+– Đối tượng được nhận dạng đúng, với tỉ lệ IoU > X (True positive : TP)
+– Đối tượng được nhận dạng sai với tỉ lệ IoU < X (False positive : FP)
 – Đối tượng không được nhận dạng (False negative: FN)
 mAP :Trung bình AP của từ mỗi class
-AP: Trung bình n Precision của mỗi n Recall.
+Đánh giá qua Average precision (AP).
 
+![image](https://user-images.githubusercontent.com/76487372/147798473-e8291731-01d3-473e-9b10-8c9e42df196f.png)
 
 
 
@@ -112,7 +125,8 @@ Ví dụ:
 ## Mô hình:
 
 - Đánh giá qua độ chính xác, F1-score.
-- Mục tiêu dự kiến: Xác định được mô hình tốt nhất, kết quả dự đoán khớp với kích thước bàn chân thực tế, giá trị accuracy và F1-score đều >=0.8 .
+- Mục tiêu dự kiến: Xác định được mô hình tốt nhất, kết quả dự đoán khớp với kích thước bàn chân thực tế, giá trị accuracy và F1-score đều >= 0.8.
+- 
 
 
 
