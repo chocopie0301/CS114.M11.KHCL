@@ -1,3 +1,45 @@
+
+# **Dự đoán người có đội mũ bảo hiểm hay không?**
+
+## Bài toán dùng ở đâu và để làm gì:
+- Sử dụng cho các thiết bị giám sát của công an giao thông (điện thoại, máy ảnh), giúp phát hiện đối tượng vi phạm không đội nón bảo hiểm dễ dàng hơn.
+- Giup cảnh sát giao thông có thể kiểm soát người vi phạm tốt hơn ở những cung đường có nhiều xe lưu thông mà mắt thường không thể kiểm soát nổi 
+
+## Bài toán gồm:
+-input: ảnh người tham gia giao thông
+-output: ảnh kèm theo bounding box và thông tin nhãn (có đội nón bảo hiểm hoặc không đội nón bảo hiểm
+
+## Mô tả dữ liệu:
+- Data bao gồm các ảnh về người tham gia giao thông (chủ yếu là xe gắn máy, xe đạp điện, những phương tiện cần đội nón bảo hiểm) được chụp tầm thấp như vd.
+ 
+- Dự kiếm 2000 ảnh tỉ lệ train/test 80/20.
+- Cách thu thập data: sử dụng điện thoại cá nhân, các thành viên tự chụp ở địa phương mình.
+## Mô hình.
+- Đánh giá nhãn thông qua các chỉ số f1-score
+- Đánh giá bounding box thông qua chỉ số mAP (mean anverage precision)
+ 
+
+ 
+Precision: Thể hiện sự chuẩn xác của việc phát hiện các điểm Positive. Số này càng cao thì model nhận các điểm Positive càng chuẩn
+ 
+Recall:  Thể hiện khả năng phát hiện tất cả các postivie, tỷ lệ này càng cao thì cho thấy khả năng bỏ sót các điểm Positive là thấp
+ 
+F1 score: Là số dung hòa Recall và Precision giúp ta có căn cứ để lựa chọn model. F1 càng cao càng tốt .
+Đối với bounding box việc xác địnhTP, FN,FP như sau:
+ 
+Chọn một ngưỡng X.
+Các tiêu chí được dùng để đánh giá:
+– Đối tượng được nhận dạng đúng với tỉ lệ IOU> X (True positive : TP)
+– Đối tượng được nhận dạng sai với tỉ lệ IOU < X (False positive : FP)
+– Đối tượng không được nhận dạng (False negative: FN)
+mAP :Trung bình AP của từ mỗi class
+AP: Trung bình n Precision của mỗi n Recall.
+
+
+
+
+# ---------------------------------------------------------------------------------------------------------------------
+
 # **Dự đoán khoảng cách phòng dịch covid của mọi người di chuyển trong nơi công cộng?**
 
 ## Bài toán dùng ở đâu và để làm gì:
@@ -25,22 +67,6 @@ Dữ liệu chia làm 3 tập train/dev/test với tỉ lệ: 60/20/20
 ## Mô hình: 
 - Đánh giá qua độ chính xác.
 - Mục tiêu dự kiến: Xác định được mô hình tốt nhất, kết quả dự đoán khớp với kích thước bàn chân thực tế, giá trị accuracy >=0.8 .
-
-
-
-##---------------------------------------------------------------------------------------------------------------------------------------------
-
-# **Dự đoán người có đội mũ bảo hiểm hay không?**
-
-## Bài toán dùng ở đâu và để làm gì:
-
-Dù đã có luật về việc bắt buộc đội mũ bảo hiểm đã ban hành từ tháng 6 năm 2001 nhưng đến nay vẫn còn nhiều trường hợp không chấp hành, gây nguy hiểm 
-
-## Bài toán gồm:
-
-## Mô tả dữ liệu:
-
-## Mô hình:
 
 
 
