@@ -1,7 +1,8 @@
 # **Dự đoán người có đội mũ bảo hiểm hay không?**
 
 ## Bài toán dùng ở đâu và để làm gì:
-- Sử dụng cho các thiết bị giám sát của công an giao thông (điện thoại, máy ảnh), giúp phát hiện đối tượng vi phạm không đội nón bảo hiểm dễ dàng hơn.
+- Có thể sử dụng ở đoạn đường gần trường cấp 3, nơi có nhiều bạn trẻ có hệ tư tưởng tổ lái, bốc đầu và ở những đoạn đường này thường sẽ có khoảng thời gian nhất định trong ngày có nhiều người tham gia giao thông (6-7g sáng, 11g15 trưa, 13g và 17g15). 
+- Sử dụng cho các thiết bị quay video cá nhân (điện thoại, máy ảnh) của công an giao thông hoặc những người có nhiệm vụ giữ an toàn trật tự tại một địa phương, giúp phát hiện đối tượng vi phạm không đội nón bảo hiểm nhanh hơn khi đoạn đường đó có đông người qua lại và không có sẵn camera giám sát.
 - Giup cảnh sát giao thông có thể kiểm soát người vi phạm tốt hơn ở những cung đường có nhiều xe lưu thông mà mắt thường không thể kiểm soát nổi 
 
 ## Bài toán gồm:
