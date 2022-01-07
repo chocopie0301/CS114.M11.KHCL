@@ -1,13 +1,13 @@
 # **Dự đoán người có đội mũ bảo hiểm hay không?**
 
 ## Bài toán dùng ở đâu và để làm gì:
-- Có thể sử dụng ở đoạn đường gần trường cấp 3, nơi có nhiều bạn trẻ có hệ tư tưởng tổ lái, bốc đầu và ở những đoạn đường này thường sẽ có khoảng thời gian nhất định trong ngày có nhiều người tham gia giao thông (6-7g sáng, 11g15 trưa, 13g và 17g15). Giúp nhà trường có thể quản lý được việc học sinh tham gia giao thông khi đến trường.
 - Sử dụng cho các thiết bị quay video cá nhân (điện thoại, máy ảnh) của công an giao thông hoặc những người có nhiệm vụ giữ an toàn trật tự tại một địa phương, giúp phát hiện đối tượng vi phạm không đội nón bảo hiểm nhanh hơn khi đoạn đường đó có đông người qua lại và không có sẵn camera giám sát.
-- Giup cảnh sát giao thông có thể kiểm soát người vi phạm tốt hơn ở những cung đường có nhiều xe lưu thông mà mắt thường không thể kiểm soát nổi 
+- Giúp cảnh sát giao thông có thể kiểm soát người vi phạm tốt hơn ở những cung đường có nhiều xe lưu thông mà mắt thường không thể kiểm soát nổi 
+- Có thể sử dụng ở đoạn đường gần trường cấp 3, nơi có nhiều bạn trẻ có hệ tư tưởng tổ lái, bốc đầu và ở những đoạn đường này thường sẽ có khoảng thời gian nhất định trong ngày có nhiều người tham gia giao thông (6-7g sáng, 11g15 trưa, 13g và 17g15). Giúp nhà trường có thể quản lý được việc học sinh tham gia giao thông khi đến trường.
 
 ## Bài toán gồm:
--input: ảnh người tham gia giao thông
--output: ảnh kèm theo bounding box và thông tin nhãn (có đội nón bảo hiểm hoặc không đội nón bảo hiểm
+- input: ảnh người tham gia giao thông
+- output: ảnh kèm theo bounding box và thông tin nhãn (có đội nón bảo hiểm hoặc không đội nón bảo hiểm)
 
 ## Mô tả dữ liệu:
 - Data bao gồm các ảnh về người tham gia giao thông (chủ yếu là xe gắn máy, xe đạp điện, những phương tiện cần đội nón bảo hiểm) được chụp tầm thấp như vd.
