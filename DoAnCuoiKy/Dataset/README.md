@@ -13,23 +13,32 @@
 2. Xây dựng dữ liệu trên Roboflow
 
 2.1. Tiêu chí thu thập thập ảnh
+
 Ảnh được lấy có các tiêu chí sau:
+
 -	Là ảnh chụp từ góc cao.
 -	Ảnh chụp nơi cộng đồng.
 -	Ảnh thấy được rõ mặt, hoặc ảnh có thể xác định được chân mày hoặc mắt từ vùng trán xuống tới cằm.
 -	Ảnh bị che khuất một phần nhưng thấy được các phần còn lại của vùng từ chân mày xuống tới cằm hoặc miệng.
+
 Ảnh không được lấy có các đặc điểm sau:
+
 -	Ảnh bị mờ, không xác định được rõ bộ phận nào của mặt chỉ thấy được màu da.
 -	Ảnh có tất cả người đứng gần nhưng chỉ chụp được phần trán tới mũi.
 -	Ảnh chụp người đứng quá xa.
+
 2.2. Quy tắc kẻ bounding box và gán nhãn
 
 Vì trong ảnh có nhiều người nên việc kẻ bounding box và gán nhãn cũng dựa trên nhiều tiêu chí ảnh được/ không được lấy, gồm các quy tắc như sau:
+
 -	Bounding box kẻ từ vùng đỉnh trán xuống tới cằm, không lấy phần tai ở những khuôn mặt thấy rõ.
 -	Ảnh người bị che khuất một phần nhưng phần còn lại vẫn thấy được như tiêu chí ở phần lấy ảnh thì ta sẽ kẻ bounding box phần thấy được đó.
+
 ![image](https://user-images.githubusercontent.com/76487372/152640324-d6248fa0-c8aa-4ac2-8787-126bdcd0a966.png)
+
 -	Những khuôn mặt được chụp từ góc nghiêng, khuất đi vùng mặt trước thì nhóm sẽ xét nếu vùng tai được nhìn rõ thì sẽ kẻ bounding box, không thì bỏ qua. 
 	![image](https://user-images.githubusercontent.com/76487372/152640336-5c2f78da-1574-495d-bdc0-f7d638c46b3b.png)
+	
 -	Trường hợp khuôn mặt được chụp thấy được tất cả các bộ phận trên khuôn mặt nhưng bị mờ/ không thấy rõ thì nhóm sẽ xác định vùng chân mày, mắt có thể phân biệt với màu sắc của da không, nếu có thì thực hiện kẻ bounding box, không thì bỏ qua.
 -	Không kẻ bounding box với các khuôn mặt không thấy rõ bộ phận chân mày hoặc mắt, các khuôn mặt quá nhỏ.
 -	Việc gán nhãn cho từng bounding box nhóm đã thống nhất 0 cho nhãn không đeo và 2 cho nhãn đeo.
