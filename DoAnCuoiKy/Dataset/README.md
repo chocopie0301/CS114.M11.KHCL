@@ -5,8 +5,11 @@
 - Nhóm em cải thiện số lượng ảnh trong bộ dữ liệu bằng cách thu thập các video có trên Youtube với các từ khóa tìm kiếm như ‘camera thu ngân’, ‘demo camera’.. và chuyển đổi các video sang ảnh. Từ khoảng 20 video dài ngắn khác nhau nhóm thu được 497 ảnh, tuy nhiên việc chuyển đổi ảnh này cũng không có tính đa dạng về background, màu sắc, độ sáng tối trong ảnh vì số hình ảnh được chọn chỉ diễn ra tại cùng một thời điểm cho một  video.
 ![image](https://user-images.githubusercontent.com/76487372/152640372-0695c42c-722a-4873-8223-80ee97ba55a5.png)
 
+	Hình 1. Thu thập ảnh qua Youtube
+
 - Vì thế nhóm quyết định tăng tính đa dạng dữ liệu của bộ dữ liệu bằng cách thu thập thêm ảnh trên Google qua việc search với từ khóa “wear mask in public places”, rồi lọc lấy các ảnh phù hợp.
 ![image](https://user-images.githubusercontent.com/76487372/152640374-b8545be4-94e2-4492-a124-331d13967c3d.png)
+	Hình 2. Thu thập ảnh trên Google
 
 - Nhờ đó, số lượng ảnh cuối cùng nhóm thu thập được là 1461 ảnh.
 
@@ -34,10 +37,14 @@ Vì trong ảnh có nhiều người nên việc kẻ bounding box và gán nhã
 -	Bounding box kẻ từ vùng đỉnh trán xuống tới cằm, không lấy phần tai ở những khuôn mặt thấy rõ.
 -	Ảnh người bị che khuất một phần nhưng phần còn lại vẫn thấy được như tiêu chí ở phần lấy ảnh thì ta sẽ kẻ bounding box phần thấy được đó.
 
-![image](https://user-images.githubusercontent.com/76487372/152640324-d6248fa0-c8aa-4ac2-8787-126bdcd0a966.png)
-
+	![image](https://user-images.githubusercontent.com/76487372/152640324-d6248fa0-c8aa-4ac2-8787-126bdcd0a966.png)
+	
+	Hình 3. Kẻ bounding box cho khuôn mặt/phần mặt được thấy rõ
+	
 -	Những khuôn mặt được chụp từ góc nghiêng, khuất đi vùng mặt trước thì nhóm sẽ xét nếu vùng tai được nhìn rõ thì sẽ kẻ bounding box, không thì bỏ qua. 
 	![image](https://user-images.githubusercontent.com/76487372/152640336-5c2f78da-1574-495d-bdc0-f7d638c46b3b.png)
+	
+	Hình 4. Kẻ bounding box cho các khuôn mặt chụp từ góc nghiêng
 	
 -	Trường hợp khuôn mặt được chụp thấy được tất cả các bộ phận trên khuôn mặt nhưng bị mờ/ không thấy rõ thì nhóm sẽ xác định vùng chân mày, mắt có thể phân biệt với màu sắc của da không, nếu có thì thực hiện kẻ bounding box, không thì bỏ qua.
 -	Không kẻ bounding box với các khuôn mặt không thấy rõ bộ phận chân mày hoặc mắt, các khuôn mặt quá nhỏ.
@@ -49,9 +56,14 @@ Vì trong ảnh có nhiều người nên việc kẻ bounding box và gán nhã
 
 ![image](https://user-images.githubusercontent.com/76487372/152640545-19d20523-b2d5-4aa6-bd9a-745795e56a2a.png)
 
+	Hình 5. Chia dữ liệu ngẫu nhiên theo tỉ lệ 80/20 sử dụng Roboflow
+
 **2.4. Tiền xử lý dữ liệu**
 - Dữ liệu sau khi được chia trên Roboflow sẽ tiếp tục đến bước tiền xử lý dữ liệu bằng cách chuyển các ảnh về kích thước 414x416. Để đồng bộ tất cả ảnh, tránh tình trạng nhiễu hay lỗi. Việc chuyển ảnh về kích thước nhỏ hơn cũng giúp quá trình huấn luyện mô hình diễn ra nhanh hơn. 
 ![image](https://user-images.githubusercontent.com/76487372/152640562-e0a9026b-9fb4-4735-8e5e-d3016e413b36.png)
+
+Hình 6. Các lựa chọn cho bước tiền xử lý dữ liệu trên Roboflow
+
 - Nhóm có áp dụng thêm lựa chọn ‘Auto-Orient’ trong bước tiền xử lý. Với ‘Auto-Orient’, các bounding box sẽ luôn được định hướng theo đối tượng đã được kẻ bounding box trước đó khi ảnh bị xoay. ‘Auto-Orient’ khá hữu ích cho việc tăng cường dữ liệu sử dụng phép xoay.
 **2.5. Tăng cường dữ liệu**
 - Số lượng ảnh cho tập train/val chưa được nhiều nhưng việc bổ sung thêm ảnh không khả thi nên nhóm tiến hành tăng cường dữ liệu bằng các phép biến đổi trên ảnh có sẵn trong bộ dữ liệu ban đầu.
@@ -66,19 +78,26 @@ Vì trong ảnh có nhiều người nên việc kẻ bounding box và gán nhã
 
 ![image](https://user-images.githubusercontent.com/76487372/152640608-15e7d4e3-1ee5-4fb0-bea6-9ff54b8e69c0.png)
 
- 		Hình 16. Tăng cường dữ liệu trên Roboflow.
+ 		Hình 7. Tăng cường dữ liệu trên Roboflow.
  
 Với việc sử dụng cách tăng cường dữ liệu như trên, kết quả biểu đồ Heatmap nhóm nhận được sau cùng đã cải thiện rõ rệt:
+![image](https://user-images.githubusercontent.com/76487372/152663810-c83d3f24-c281-4b00-a590-cc545d325f53.png)
+
+![image](https://user-images.githubusercontent.com/76487372/152663812-2a9e1331-19cd-4af1-b067-70491fffd05e.png)
+
+![image](https://user-images.githubusercontent.com/76487372/152663813-89156b51-3da9-4611-8c1f-3e2150c0e0af.png)
+
+	(a)
+	
 ![image](https://user-images.githubusercontent.com/76487372/152640615-5c6cd99a-cea3-43d5-9c05-3172bd8d29fa.png) 
-(a)
 
 ![image](https://user-images.githubusercontent.com/76487372/152640662-fe9f1c36-788a-4b21-b589-fec099bb3e47.png)
-(b)
 
 ![image](https://user-images.githubusercontent.com/76487372/152640675-36b93d85-dc39-4469-a9db-1042c8fa78d8.png) 
-(c)
 
-		Hình 17.  Các Heatmap của bộ dữ liệu đã được tăng cường.
+	(b)
+
+		Hình 8.  (a), (b) Lần lượt là các Heatmap của bộ dữ liệu chưa tăng cường & đã được tăng cường.
 		
 
 
