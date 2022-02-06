@@ -13,6 +13,7 @@
 **2. Xây dựng dữ liệu trên Roboflow**
 
 **2.1. Tiêu chí thu thập thập ảnh**
+
 Ảnh được lấy có các tiêu chí sau:
 
 -	Là ảnh chụp từ góc cao.
@@ -27,6 +28,7 @@
 -	Ảnh chụp người đứng quá xa.
 
 **2.2. Quy tắc kẻ bounding box và gán nhãn**
+
 Vì trong ảnh có nhiều người nên việc kẻ bounding box và gán nhãn cũng dựa trên nhiều tiêu chí ảnh được/ không được lấy, gồm các quy tắc như sau:
 
 -	Bounding box kẻ từ vùng đỉnh trán xuống tới cằm, không lấy phần tai ở những khuôn mặt thấy rõ.
@@ -42,6 +44,7 @@ Vì trong ảnh có nhiều người nên việc kẻ bounding box và gán nhã
 -	Việc gán nhãn cho từng bounding box nhóm đã thống nhất 0 cho nhãn không đeo và 2 cho nhãn đeo.
 
 **2.3. Chia dữ liệu**
+
 Để thực hiện phân chia dữ liệu hiệu quả, tránh tình trạng overfit trên bộ dữ liệu có số lượng chưa được nhiều, chưa được quá đa dạng và kiểm tra được model có tốt hay không, cùng với đó nhóm sử dụng mô hình YOLOv5 để huấn luyện nên tập validation là quan trọng trong việc đánh giá. Vì vậy, nhóm chỉ dùng 66 ảnh cho việc test, được lưu riêng ở trên drive và không tải lên Roboflow, 1395 ảnh nhóm tải lên Roboflow chia theo tỉ lệ 80/20 cho train/val. Sau khi Roboflow chia ngẫu nhiên ảnh, nhóm thực hiện lọc thủ công lấy những ảnh có đặc trưng riêng, những ảnh không có tính trùng lặp trong cả bộ dữ liệu với các ảnh còn lại sang tập validation, rồi chuyển những ảnh gần giống nhau sang tập train.
 
 ![image](https://user-images.githubusercontent.com/76487372/152640545-19d20523-b2d5-4aa6-bd9a-745795e56a2a.png)
