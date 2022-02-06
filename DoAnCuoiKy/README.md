@@ -3,7 +3,7 @@
 
 # Nhóm TTP:
 - Nguyễn Thành Trung - 19522432
-- Trần Hồ Thiên Phước - 19522067
+- Trần Hồ Thiên Phước - 19522057
 
 # Nội dung nộp: 
 
