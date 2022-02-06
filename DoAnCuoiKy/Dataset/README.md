@@ -64,7 +64,7 @@ Vì trong ảnh có nhiều người nên việc kẻ bounding box và gán nhã
 •	Brightness: thay đổi độ sáng-tối của nền ảnh trong khoảng -40% đến 40%.
 → Hue, Saturation, Brightness: đa dạng màu sắc, cường độ màu sắc của các ảnh và độ sáng-tối nền ảnh.
 
-![image](https://user-images.githubusercontent.com/76487372/152640608-15e7d4e3-1ee5-4fb0-bea6-9ff54b8e69c0.png
+![image](https://user-images.githubusercontent.com/76487372/152640608-15e7d4e3-1ee5-4fb0-bea6-9ff54b8e69c0.png)
 
  Hình 16. Tăng cường dữ liệu trên Roboflow.
  
