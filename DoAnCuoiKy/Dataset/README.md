@@ -42,6 +42,7 @@ Vì trong ảnh có nhiều người nên việc kẻ bounding box và gán nhã
 	Hình 3. Kẻ bounding box cho khuôn mặt/phần mặt được thấy rõ
 	
 -	Những khuôn mặt được chụp từ góc nghiêng, khuất đi vùng mặt trước thì nhóm sẽ xét nếu vùng tai được nhìn rõ thì sẽ kẻ bounding box, không thì bỏ qua. 
+
 	![image](https://user-images.githubusercontent.com/76487372/152640336-5c2f78da-1574-495d-bdc0-f7d638c46b3b.png)
 	
 	Hình 4. Kẻ bounding box cho các khuôn mặt chụp từ góc nghiêng
@@ -97,8 +98,10 @@ Với việc sử dụng cách tăng cường dữ liệu như trên, kết qu�
 
 	(b)
 
-		Hình 8.  (a), (b) Lần lượt là các Heatmap của bộ dữ liệu chưa tăng cường & đã được tăng cường.
-		
+		Hình 8.  (a.1-3) Lần lượt là các Heatmap của bộ dữ liệu chung 2 nhãn, nhãn đeo và nhãn không đeo lúc chưa tăng cường.
+			 (b.1-3) Lần lượt là các Heatmap của bộ dữ liệu chung 2 nhãn, nhãn đeo và nhãn không đeo lúc đã được tăng cường.
+
+Ta thấy, Heatmap khi dữ liệu được tăng cường đã trở nên trải đều hơn và rộng hơn. Có nghĩa là lúc này sự phân bố các Bounding box có trong bộ dữ liệu trở nên đa dạng hơn.
 
 
 
