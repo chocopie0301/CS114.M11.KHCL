@@ -1,3 +1,5 @@
+# 
+_Mình có thêm chút "gia vị" về giao diện bằng html/css_
 Để tránh conflict (xung đột) khi cài đặt thư viện, cần sử dụng python python ver 3.9
 
 1. Cài đặt môi trường ảo để chạy dự án, cài đặt các thư viện cần thiết trong môi trường
