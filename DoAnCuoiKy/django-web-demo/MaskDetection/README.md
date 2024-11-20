@@ -1,12 +1,12 @@
 # MASK Detection Testing
 
-_Mình có thêm chút "gia vị" về giao diện bằng html/css_
-
 **Phần demo này mình xây dựng một app chạy local với django, để hiển thị chức năng `choose`, `upload` image và `show` image_detected. Một trang cơ bản về chức năng và cả giao diện.**
+
+_Mình có thêm chút "gia vị" về giao diện bằng html/css_
 
 ![](https://github.com/chocopie0301/CS114.M11.KHCL/blob/main/DoAnCuoiKy/django-web-demo/MaskDetection/image/demo/MaskDetection.gif)
 
-## 1 Đầu tiên, sau khi clone cả repo về máy, thì bạn cần phải chuyển hướng đến đúng thư mục MaskDetection.
+## 1 Đầu tiên, sau khi git clone repo này về máy, thì bạn cần phải chuyển hướng đến đúng thư mục MaskDetection.
 ## 2 Sau đó cài đặt các thư viện hỗ trợ cần thiết. 
 - Chú ý: Để tránh conflict (xung đột) khi cài đặt thư viện, cần sử dụng python python ver 3.9
 
