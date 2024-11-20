@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            margin: 150px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h2 {
+            color: #007BFF;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="file"] {
+            margin: 20px 0;
+            padding: 10px;
+            border: 2px dashed #007BFF;
+            border-radius: 10px;
+            cursor: pointer;
+            outline: none;
+        }
+        input[type="file"]:hover {
+            border-color: #0056b3;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #imagePreviewContainer {
+            margin-top: 20px;
+        }
+        #imagePreview {
+            max-width: 100%;
+            max-height: 300px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+        }
+        footer {
+            margin-top: auto;
+            font-size: 16px;
+            color: #888;
+            bottom: 70px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Upload an Image for Mask Detection</h2>
+        
+        <!-- Form upload -->
+        <form action="/" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            
+            <!-- Input để chọn ảnh -->
+            <input type="file" id="imageInput" name="image" accept="image/*" onchange="previewImage(event)">
+            
+            <button type="submit">Upload</button>
+        </form>
+
+        <!-- Khung để hiển thị ảnh đã chọn -->
+        <div id="imagePreviewContainer" style="display: none;">
+            <h3>Selected Image</h3>
+            <img id="imagePreview" src="" alt="Image Preview">
+        </div>
+    </div>
+
+    <footer>
+        <p>Developed by Trung Nguyen</p>
+    </footer>
+
+    <script>
+        function previewImage(event) {
+            const input = event.target;
+            const file = input.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function(e) {
+                // Cập nhật ảnh preview với URL của file
+                const imagePreview = document.getElementById('imagePreview');
+                imagePreview.src = e.target.result;
+                document.getElementById('imagePreviewContainer').style.display = 'block';  // Hiển thị ảnh preview
+            };
+
+            if (file) {
+                reader.readAsDataURL(file);
+            }
+        }
+    </script>
+</body>
+</html>
