@@ -17,7 +17,9 @@ _Mình có thêm chút "gia vị" về giao diện bằng html/css_
 `cd path/to/your/project`
 
 `pipenv install django`
+
 `pipenv install torch torchvision pillow opencv-python`
+
 `pipenv install yolov5`
 
 ## 3 Kích hoạt môi trường ảo và runserver
@@ -27,6 +29,7 @@ pipenv shell
 
 ### 3.2 Runserver
 `python manage.py migrate`
+
 `python manage.py runserver`
 
 Cuối cùng, truy cập và trải nghiệm: `http://127.0.0.1:8000/`
