@@ -8,7 +8,7 @@ _Mình có thêm chút "gia vị" về giao diện bằng html/css_
 
 ## 1 Đầu tiên, sau khi git clone repo này về máy, thì bạn cần phải chuyển hướng đến đúng thư mục MaskDetection.
 ## 2 Sau đó cài đặt các thư viện hỗ trợ cần thiết. 
-- Chú ý: Để tránh conflict (xung đột) khi cài đặt thư viện, cần sử dụng python python ver 3.9
+- Chú ý: Để tránh conflict (xung đột) khi cài đặt thư viện, cần sử dụng python ver 3.9
 
 ### (SbS) Cài đặt môi trường ảo để chạy dự án, cài đặt các thư viện cần thiết trong môi trường
 
