@@ -34,7 +34,7 @@ pipenv shell
 
 Cuối cùng, truy cập và trải nghiệm: `http://127.0.0.1:8000/`
 
-Chi tiết đồ án trong ![Mask Detection](https://github.com/chocopie0301/CS114.M11.KHCL/edit/main/DoAnCuoiKy)
+### Chi tiết đồ án trong ![Mask Detection](https://github.com/chocopie0301/CS114.M11.KHCL/edit/main/DoAnCuoiKy)
 
 
 
